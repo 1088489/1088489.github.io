@@ -1,0 +1,69 @@
+/* style.css */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+   }
+   .container {
+    width: 90%;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   }
+   header {
+    text-align: center;
+    margin-bottom: 2rem;
+   }
+   header h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+   }
+   header img {
+    border-radius: 50%;
+    margin-bottom: 1rem;
+   }
+   header p {
+    font-size: 1rem;
+    color: #555;
+   }
+   header a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+   }
+   header a img {
+    margin: 0 5px;
+    vertical-align: middle;
+   }
+   section h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.5rem;
+    color: #333;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+   }
+   section p, section ul {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 1rem 0;
+   }
+   section ul li {
+    margin: 0.5rem 0;
+   }
+   footer {
+    text-align: center;
+    margin-top: 2rem;
+    color: #777;
+    font-size: 0.9rem;
+   }
